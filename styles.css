@@ -1,4 +1,23 @@
 img {
-    border-radius: 50%;
-    width: 30%;
-  }
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+}
+h1 {
+  text-align: center;
+}
+
+table {
+  background-color: white;
+  width: 60%;
+  
+}
+td {
+  padding: 100px;
+}
+.container {
+  position: relative;
+  width: 60%;
+}
+
