@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font: 14px Georgia, serif;
+    background:url(../images/background4.jpg) ;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+#switcher-wrapper {
+    width: 240px;
+    margin: 20px auto;
+    position: relative;
+}
+#switcher-wrapper a{
+    display: block;
+    width: 240px;
+    height: 160px;
+    position: absolute;
+    border-radius: 50%;
+    top: 0;
+    left: 0;
+}
+#one{ background:url(../images/sea.jpg); }
+#two{ background:url(../images/mountain.jpg); }
+
+#switcher-wrapper a span {
+    position: absolute;
+}
+#one span { 
+    left: 50px;
+    bottom: -35px;
+}
+
+#switcher-wrapper a:hover { z-index: 1;}
+table {
+    width: 60%;
+    margin-top: 400px;
+    margin-left: 60px;  
+  }
+  td {
+    padding: 100px;
+    bottom: 45px;
+  }
